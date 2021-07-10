@@ -1,0 +1,1 @@
+# NoteForPhicommN1Armbian
