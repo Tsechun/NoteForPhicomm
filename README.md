@@ -21,6 +21,19 @@
 
 https://askubuntu.com/questions/657160/automatically-run-a-command-script-at-startup
 
+rc.local has solved this for me, and although I have read is outdated But kept around for compatibility, if somebody has the updated, but JUST AS SIMPLE answer, please share as I will update my server.
+
+sudo nano /etc/rc.local
+You can use either calling a script in rc.local or directly run desired commands. Eg:
+
+# By default this script does nothing.
+
+/root/script.sh
+(or)
+sudo service deluged restart
+
+exit 0
+
 
 https://zhuanlan.zhihu.com/p/80305764
 
