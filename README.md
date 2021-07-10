@@ -26,7 +26,7 @@ rc.local has solved this for me, and although I have read is outdated But kept a
 sudo nano /etc/rc.local
 You can use either calling a script in rc.local or directly run desired commands. Eg:
 
-# By default this script does nothing.
+By default this script does nothing.
 
 /root/script.sh
 (or)
